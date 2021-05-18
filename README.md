@@ -1,9 +1,9 @@
 # Automate Kubenetes Cluster Creation
 # Installation of Ansible in the Red Hat servers.
 
-sudo useradd ansible
-echo "ansible ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ansible
-sudo su ansible
+sudo useradd ansible \
+echo "ansible ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ansible \
+sudo su ansible \
 
 
 # Terraform Installation
