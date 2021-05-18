@@ -1,8 +1,8 @@
 # automate_kube_cluster
 # Installation of Ansible in the Red Hat servers.
 
-$ sudo useradd ansible
-$ echo "ansible ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ansible
+$ sudo useradd ansible \n
+$ echo "ansible ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ansible \n
 $ sudo su ansible
 
 
