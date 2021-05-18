@@ -1,4 +1,4 @@
-# automate_kube_cluster
+# Automate Kubenetes Cluster Creation
 Installation of Ansible in the Red Hat servers.
 
 $ sudo useradd ansible
