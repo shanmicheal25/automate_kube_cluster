@@ -18,6 +18,7 @@ $ vi .bashrc \
 $ export PATH="$PATH:/usr/local/bin" \
 $ source ~/.bashrc 
 
+
 # Ansible Installation.
 
 $ sudo yum install python3 -y \
@@ -25,6 +26,11 @@ $ sudo alternatives --set python /usr/bin/python3 \
 $ sudo yum -y install python3-pip -y \
 $ pip3 install ansible --user \
 $ pip3 install boto3 --user 
+
+# Create a role to access Ec2 instance and vpc 
+
+create new role in IAM to access EC2 full and VPC full 
+Assign to ansible ec2 instance. 
 
 # Permission to execute the python script 
 
