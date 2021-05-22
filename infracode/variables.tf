@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "key_name" {
-    default = "pratice_key"
+    default = "practice_k8s"
 }
 
 variable "vpc_cidr" {
@@ -29,5 +29,5 @@ variable "master_instance_type" {
 }
 
 variable "worker_instance_type" {
-    default = "t2.medium"
+    default = "t2.small"
 }
