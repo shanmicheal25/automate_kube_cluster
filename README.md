@@ -10,12 +10,14 @@ $ sudo su ansible
 
 $ sudo su ansible \
 $ sudo yum install wget unzip -y \ 
+
 $ wget https://releases.hashicorp.com/terraform/0.15.3/terraform_0.15.3_linux_amd64.zip \
 $ sudo unzip terraform_0.12.26_linux_amd64.zip -d /usr/local/bin \
 $ export PATH=$PATH:/usr/local/bin \
 $ vi .bashrc \
 $ export PATH="$PATH:/usr/local/bin" \
 $ source ~/.bashrc 
+
 
 # Ansible Installation.
 
@@ -24,6 +26,11 @@ $ sudo alternatives --set python /usr/bin/python3 \
 $ sudo yum -y install python3-pip -y \
 $ pip3 install ansible --user \
 $ pip3 install boto3 --user 
+
+# Create a role to access Ec2 instance and vpc 
+
+create new role in IAM to access EC2 full and VPC full 
+Assign to ansible ec2 instance. 
 
 # Permission to execute the python script 
 
